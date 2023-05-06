@@ -1,0 +1,25 @@
+.progress {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .progress__background {
+    stroke: rgb(53, 49, 49);
+  }
+  
+  .progress__bar {
+    stroke:white;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    transition: stroke-dashoffset 0.5s;
+  }
+  
+  .details{
+    font-size: 20px;
+    font-weight: bold;
+    fill:  white;
+  }
+  text{
+    color: #c5f9ff;
+  }
